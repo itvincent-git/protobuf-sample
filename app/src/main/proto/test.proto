@@ -1,0 +1,23 @@
+syntax = "proto3";
+package test;
+option java_package = "com.example.test";
+option java_outer_classname = "TestProtos";
+
+message Test1 {
+    int32 a = 1;
+}
+
+message Test2 {
+    string s = 1;
+}
+
+message User {
+    int32 id = 1;
+    string name = 2;
+    repeated string icon_url = 3;
+}
+
+message Signed {
+    int32 a = 1;
+    sint32 b = 2;
+}

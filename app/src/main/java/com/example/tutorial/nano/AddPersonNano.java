@@ -21,7 +21,7 @@ public class AddPersonNano {
     private static final long SEED = System.currentTimeMillis();
 
     // This function fills in a Person message based on user input.
-    static Person setPersonForAddress(String name, String email, String number, String type) throws IOException {
+    public static Person setPersonForAddress(String name, String email, String number, String type) throws IOException {
         Log.i(TAG, "Start set person");
         Person person = new Person();
 
