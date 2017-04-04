@@ -21,3 +21,23 @@ message Signed {
     int32 a = 1;
     sint32 b = 2;
 }
+
+message NestTest {
+    Test1 t = 1;
+}
+
+message RepeatedTest {
+    repeated int32 a = 1;
+}
+
+message RepeatedPackedTest {
+    repeated int32 a = 1 [packed=true];
+}
+
+message BoolTest {
+    bool a = 1;
+}
+
+message BytesTest {
+    bytes a = 1;
+}
