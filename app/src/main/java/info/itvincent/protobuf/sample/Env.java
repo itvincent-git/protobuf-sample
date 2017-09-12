@@ -5,5 +5,5 @@ package info.itvincent.protobuf.sample;
  */
 
 public class Env {
-    public static final boolean USE_NANO = true;
+    public static final boolean USE_NANO = false;
 }
